@@ -1,0 +1,11 @@
+1) Describe Client Side MVC, SPA, and Typescript
+2) Discuss and Apply various application designs, testing practices, and related development tools DI
+3) List different ways of development using alternate APIs and use them as per use cases
+4) Explain XHR communication, Form manipulation, and REST API communication
+5) State Async supporting libraries/features like Promises, Observable
+6) Describe Internationalization/Localization, and External libraries like JQuery, Bootstrap, incorporation
+7) Explore Upgrading from 1.X AngularJS Application, and Multi-Device/Cross-Platform application
+8) Illustrate how to use Node.JS, MongoDB (MEAN Stack) to create simple functioning RESTful APIs yourself.
+9) Work on a real-life project, implementing an Electronic Voting System to learn 10) Create-Read-Update-Delete concepts and derive Business Insights.
+11) A working code base implemented for a real-life project using MEAN stack to learn integration of different frontend requirements into a single project - Shopping Cart
+12) Working code bases implemented for a real-life project using Firebase - Grocery List Management / Employee Management.
