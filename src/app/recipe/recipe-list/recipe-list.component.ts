@@ -7,10 +7,15 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-title = "bedoui hammouda";
+
   recipes: Recipe[] = [
   // tslint:disable-next-line: max-line-length
-  new Recipe('test recipe', 'this is just a description of test recipe', 'https://www.bbcgoodfood.com/sites/default/files/recipe-collections/collection-image/2013/05/gfkids_maccheese.jpg')
+  new Recipe('Family meal recipes', 'Kids and grownups will love these family dinners from Good Food, ', '../../../assets/img/1.jpg'),
+  new Recipe('Puff pizza tart', 'Unroll the pastry onto a large baking sheet and prick all over with a fork. Spread over the pesto', '../../../assets/img/2.jpg'),
+  new Recipe('Beanburger puffs', 'Preheat the oven to fan 180C/ conventional 200C/gas 6. In a large bowl).', '../../../assets/img/3.jpg'),
+
+
+
 ];
 
   constructor() { }
