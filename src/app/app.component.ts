@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'DevRecipeBookAng8';
-}
+
+  optionOnloaded = 'recipes';
+
+  onNavigation(option: string) {
+    this.optionOnloaded = option;
+
+  }
+
+  }

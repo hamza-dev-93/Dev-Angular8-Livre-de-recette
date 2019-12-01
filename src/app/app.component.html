@@ -1,12 +1,11 @@
-<app-header></app-header>
+<app-header (optionSelected)="onNavigation($event)" ></app-header>
 <div class="container">
   <div class="row">
     <div col-md-12>
-    <app-recipe></app-recipe>
-    <app-shopping-list></app-shopping-list>
-    <h1>Bootstarp is working</h1>
-    </div>
+    <app-recipe *ngIf="optionOnloaded === 'recipes'" ></app-recipe>
+    <app-shopping-list *ngIf="optionOnloaded !== 'recipes'" ></app-shopping-list>
+        </div>
   </div>
 </div>
 
-<router-outlet></router-outlet>
+<!-- <router-outlet></router-outlet>  -->
